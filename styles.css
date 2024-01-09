@@ -1,9 +1,16 @@
+.border-b{
+ list-style-position: inside;
+ column-rule-style: calc(100%);
+ 
+   
+}
+
 header {
 
     width: 1320px;
     height: 600px;
-    flex-shrink: 0;
-    border-radius: 16px;
+    
+  
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)
 }
 
@@ -121,8 +128,8 @@ button {
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; 
-    
+    line-height: 32px;
+
 }
 
 .banner-header {
@@ -143,4 +150,17 @@ button {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+/*footer related*/
+
+
+footer {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    
+
 }

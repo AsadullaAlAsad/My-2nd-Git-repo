@@ -95,3 +95,52 @@ button {
     height: 140px;
     flex-shrink: 0;
 }
+
+/*banner-html*/
+
+.banner-html {
+    width: 1200px;
+    height: 1000px;
+    background: #FFF;
+
+
+
+}
+
+.box-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+
+}
+
+.paragraph-writing {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    
+}
+
+.banner-header {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.banner-greeting {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

@@ -1,10 +1,11 @@
 .header-main {
-    width: 1320px;
-    height: 600px;
+    width: 1520px;
+    height: 700px;
     background-color: rgba(177, 151, 230, 0.6);
     background-image: url('Banner Image.png');
     align-items: center;
     border-radius: 16px;
+    padding: ;
 
 
 }

@@ -1,18 +1,30 @@
-.border-b{
- list-style-position: inside;
- column-rule-style: calc(100%);
- 
-   
-}
-
-header {
-
+.header-main {
     width: 1320px;
     height: 600px;
-    
-  
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%)
+    background-color: rgba(177, 151, 230, 0.6);
+    background-image: url('Banner Image.png');
+    align-items: center;
+    border-radius: 16px;
+
+
 }
+
+.adding-p {
+    padding: 100px;
+}
+
+.border-b {
+    list-style-position: inside;
+    column-rule-style: calc(100%);
+    padding: 40px;
+    border-radius: 16px;
+
+
+}
+
+
+
+
 
 .first-div {
     font-style: normal;
@@ -35,8 +47,10 @@ header {
     width: 1320px;
     height: 482px;
     flex-shrink: 0;
-    background-color: rgb(185, 175, 175);
+    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 100%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
+    padding: 20px;
+
 
 }
 
@@ -50,23 +64,28 @@ button {
     background: #F00;
 }
 
+/*the third division*/
+
 .the-third-div {
-    background: #FFF;
-    width: 1200px;
-    height: 1335px;
-    align-items: center;
+    background: white;
+    width: 1000px;
+    height: 500px;
     display: flex;
-    justify-content: space-between;
+    
+
+    text-align: center;
+    margin: none;
+
 
 }
 
 .best-offer {
     color: #F00;
-    text-align: left;
+    text-align: justify;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 200;
     line-height: normal;
 }
 
@@ -78,29 +97,36 @@ button {
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
+    text-align: justify;
 }
 
-.dolor {
+.dolor-d {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    text-align: justify;
+    padding-right: 10%;
+    
 }
 
 .smil-e {
     width: 364.844px;
     height: 364.844px;
-    flex-shrink: 0;
+    
     border-radius: 364.844px;
     background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+    text-align: justify;
+    padding: 50px;
 }
 
 .happ-year {
     width: 140px;
     height: 140px;
     flex-shrink: 0;
+    text-align: justify;
 }
 
 /*banner-html*/
@@ -152,15 +178,11 @@ button {
     line-height: normal;
 }
 
+.end-end {
+    background-color: aqua;
+}
+
 /*footer related*/
 
 
-footer {
-    width: 1320px;
-    height: 616px;
-    border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
-    text-align: center;
-    
-
-}
+footer {}
